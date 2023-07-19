@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(222, 228, 231);
+}
+
+form {
+    margin-top: 15px;
+}
+
+label, select, button {
+    margin: 5px;
+}
+
+#weatherData {
+    margin-top: 20px;
+    padding: 10px;
+    width: 300px;
+    margin-left: 5%;
+    margin-right: auto;
+    text-align: left;
+    color:beige;
+}
+
+.weatherjpg{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    z-index: 1;
+}
+
+.windowWeather {
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+    height: 350px;
+    width: 260px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 25px;
+    margin-left: 74%;
+    
+}
+
+.windowWeather2 {
+    text-align: center;
+    height: 172px;
+    width: 200px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 25px;
+    
+}
+
+.slick-track{
+    height: 250px;
+}
+
+.windowWeather2 img{
+    margin-left: 25%;
+    width: 50px;
+    height: 50px;
+}
+
+.col-sm-12 .windowWeather2{
+    margin:1%;
+}
+
+.windowWeather h1{
+    color:blue;
+    text-align: center;
+}
+
+.container-fluid{
+    margin: 0 auto;
+}
+
+.Sun{
+    width: 80px;
+    height: 80px;
+}
+
+.input-group{
+    margin-left: 13%;
+}
+
+.textBackground{
+    position: absolute;
+    z-index: 3;
+}
+
+.textBackground h1{
+    color:beige;
+    margin-left: 1%;
+    margin-top: 20%;
+    font-size:60px
+}
+
+.slider .windowWeather2 {
+    margin-right: 10px; 
+    margin-left: 10px; 
+}
+
+.slider h1,
+.slider b {
+  color: rgb(224, 199, 222);
+}
+
+.newYork{
+    background-image: url("images/newyork.jpg");
+    background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.3)), url("images/newyork.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.italy{
+    background-image: url("images/italy.jpg");
+    background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.3)), url("images/italy.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.greece{
+    background-image: url("images/greece.jpg");
+    background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.3)), url("images/greece.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.dubai{
+    background-image: url("images/dubai.jpg");
+    background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.3)), url("images/dubai.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+}
+
+.turkey{
+    background-image: url("images/turkey.jpg");
+    background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.3)), url("images/turkey.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+}
+.footer {
+    position: relative;
+  }
+  
+.footer-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+.footerText{
+    position: absolute;
+    margin-top: 250px;
+    right: 0;
+    margin-right: 2%;
+    z-index: 5;
+    font-size: 20px;
+}
